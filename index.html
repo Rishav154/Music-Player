@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <script
+            src="https://kit.fontawesome.com/e63b159bbb.js"
+            crossorigin="anonymous"
+        ></script>
+        <link rel="stylesheet" href="style.css" />
+        <title>Music Player</title>
+    </head>
+    <body>
+        <h1>Music player</h1>
+        <div class="music-player-container">
+            <div class="music-info">
+                <h4 id="music-name">Ehsaan tera hoga mujhe par...</h4>
+                <div class="progress-container">
+                    <div class="progress"></div>
+                </div>
+            </div>
+            <audio src="assets/songs/ehsaanTera.mp3" id="audio"></audio>
+            <div class="image-container">
+                <img
+                    src="assets/cover/ehsaanTera.jpeg"
+                    alt="music-cover"
+                    id="cover"
+                />
+            </div>
+
+            <div class="controls">
+                <button id="previous" class="control-btn">
+                    <i class="fa-solid fa-backward"></i>
+                </button>
+                <button id="play" class="control-btn control-btn-big">
+                    <i class="fa-solid fa-play"></i>
+                </button>
+                <button id="next" class="control-btn">
+                    <i class="fa-solid fa-forward"></i>
+                </button>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
