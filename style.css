@@ -95,7 +95,7 @@ h4 {
 .control-btn {
     background-color: #fff;
     border: 0;
-    color: #dfdbdf;
+    color: rgba(163, 161, 163, 1);
     font-size: 20px;
     cursor: pointer;
     padding: 10px;
@@ -103,12 +103,12 @@ h4 {
 }
 
 .control-btn.control-btn-big {
-    color: #cdc2d0;
+    color: rgba(163, 161, 163, 0.8);
     font-size: 30px;
 }
 
-.control-btn:focus {
-    outline: 0;
+.control-btn:hover {
+    color: rgba(163, 161, 163, 0.6);
 }
 
 .music-info {
